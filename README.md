@@ -24,3 +24,5 @@ $ ionic cordova run ios
 
 Substitute ios for android if not on a Mac.
 
+# ionic-tabs-sample
+Shows how ionic tabs navigation gets mixed between tabs sets and last path in urls doesn't get updated
