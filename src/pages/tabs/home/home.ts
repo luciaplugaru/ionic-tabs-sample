@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { App, IonicPage, NavController } from 'ionic-angular';
-import { MoreTabsPage } from "../more-tabs/more-tabs";
 
 @IonicPage()
 @Component({
@@ -14,15 +13,15 @@ export class HomePage {
   }
 
   goToFirst() {
-    this.appCtrl.getRootNav().setRoot(MoreTabsPage, {selected: 0});
+    this.appCtrl.getRootNav().setRoot('MoreTabsPage', {selected: 0});
   }
 
   goToSecond() {
-    this.appCtrl.getRootNav().setRoot(MoreTabsPage, {selected: 1});
+    this.appCtrl.getRootNav().setRoot('MoreTabsPage', {selected: 1});
   }
 
   goToThird() {
-    this.appCtrl.getRootNav().setRoot(MoreTabsPage, {selected: 2});
+    this.appCtrl.getRootNav().setRoot('MoreTabsPage', {selected: 2});
   }
 
 }

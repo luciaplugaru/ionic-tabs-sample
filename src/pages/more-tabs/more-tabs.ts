@@ -1,8 +1,5 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import { FirstPage } from "../first/first";
-import { SecondPage } from "../second/second";
-import { ThirdPage } from "../third/third";
 
 /**
  * Generated class for the MoreTabsPage tabs.

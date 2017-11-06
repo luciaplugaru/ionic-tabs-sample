@@ -1,13 +1,12 @@
 import { Component } from '@angular/core';
 import { App, IonicPage, NavController } from 'ionic-angular';
-import { MoreTabsPage } from "../more-tabs/more-tabs";
 
 @IonicPage()
 @Component({
-  selector: 'page-about',
-  templateUrl: 'about.html'
+  selector: 'page-contact',
+  templateUrl: 'contact.html'
 })
-export class AboutPage {
+export class ContactPage {
 
   constructor(public navCtrl: NavController, public appCtrl: App) {
 

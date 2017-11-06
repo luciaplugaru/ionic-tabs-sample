@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { App, IonicPage, NavController, NavParams } from 'ionic-angular';
-import { TabsPage } from "../tabs/tabs";
 
 /**
  * Generated class for the ThirdPage page.
